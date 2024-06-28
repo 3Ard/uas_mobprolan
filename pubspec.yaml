@@ -1,0 +1,29 @@
+name: tsel_appsuas
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0-180.3.beta <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^3.0.0
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  # Additional settings can be added here for custom fonts, etc.
